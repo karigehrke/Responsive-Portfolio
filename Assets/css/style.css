@@ -173,12 +173,12 @@ input[type=submit] {
 /*Media Queries
 Max-width(980px, 768px, 640px
 
-Extra small devices (phones, 600px and lower*/
+Extra small devices (phones, 600px and lower-----HEADER NEEDS TO BE CENTERED*/
 @media only screen and (max-width: 640px) {
-    header {position: static; width: auto;}
-    .nav {padding: auto;}
-    .container {width: auto; margin: 0;}
-    .top {width: auto; float:left; padding: 0 auto; margin: 0 auto;}
+    header {position: static; width: 100%; text-align: center;}
+    .nav {padding: auto; width: 100%;}
+    .container {width: 100%; margin: 15px;}
+    .top {width: 100%; float:left; padding: 0 auto; margin: 0 auto;}
     #bio-image {float: left; width: 100%; height: 100%;}
     .footer {position: sticky; margin-top: 80px;}
     
@@ -186,7 +186,6 @@ Extra small devices (phones, 600px and lower*/
 
 /*768px and lower*/
 @media only screen and (max-width: 768px) {
-    header {position: static;}
     .container {width: auto; margin-left: auto; margin-right: auto;}
     .top {width: auto;}
     #bio-image {float: left; width: 100%; height: 100%;}
@@ -194,7 +193,7 @@ Extra small devices (phones, 600px and lower*/
 
 /*980px and lower*/
 @media only screen  and (max-width: 980px) {
-    header {position: static; width: auto;}
+    header {width: auto;}
     .container {width: auto; margin-left: auto; margin-right: auto;}
     .top {width: auto;}
     #bio-image {float: left; width: 100%; height: 100%;}
